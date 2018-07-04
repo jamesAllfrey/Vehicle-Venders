@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffc661;
+}
+
+.navItem {
+    float: right;
+    margin-right: 30px;
+}
+
+.navItem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navItem a:hover {
+    background-color: #f6ae2d;
+}
+hr {
+    display: block;
+    border: 0;
+    border-top: 2px solid #f6ae2d;
+    margin: 0;
+    padding: 0; 
+}
+h3{
+    font-family: 'Arial';
+    font-weight: bold;
+    margin-top: 2px;
+    color: #f6ae2d
+}
+h5{
+  font-family: 'Arial';  
+  color: #f6ae2d
+}
+h6{
+  font-family: 'Arial';
+  font-style: italic;
+  color: #808080;  
+}
+.box{
+    width: 450px;
+    height: 240px;
+    background-color: #ffc661;
+    border: 3px solid #f6ae2d;
+    z-index: 10;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -225px;
+}
+
+.daterPicker{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: .25rem;
+    padding: 3px;
+    display: inline-block !important;
+    text-align: center;  
+}
+.seats{
+    text-align: center;
+}
+.seatOptions{
+    max-width: 150px;
+}
+.flatpickr-input{
+    border-radius: .25rem !important;
+}
+.pick-up{
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.drop-off{
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.options{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.btn-primary {
+    color: #fff;
+    background-color: #808080;
+    border-color: #c2c2c2;
+    display: inline-block;
+}.btn-primary:hover { 
+    background-color: #c2c2c2;
+    border-color: #c2c2c2;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #c2c2c2;
+    border-color: #808080;
+}
+.card{
+    margin-bottom: 20px;
+}
+.card-body{
+    border: 3px solid #f6ae2d;
+    box-shadow: 2px 2px 2px #ffc661;
+}
+.cars {
+     border-left: 3px solid #f6ae2d;
+    border-right: 3px solid #f6ae2d;
+    border-top: 3px solid #f6ae2d;
+    box-shadow: 2px 2px 2px #ffc661;
+}
+#map {
+   width: 1000;
+   height: 400px;
+   background-color: grey;
+   margin: 20px
+ }
+ .container{
+     border-left: 3px solid #c2c2c2;
+     border-right: 3px solid #c2c2c2;
+     background-color: #efefef;
+     box-shadow: 5px 10px 2px #efefef;
+     padding-top: 20px;
+     padding-bottom: 20px
+ }
+ .container1 {
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+.image {
+
+
+}​
+
+
+
+
+
+.image img {
+    width: 100%;
+    
+}
